@@ -47,11 +47,12 @@ height: 100px;
   margin-left: -1000px;
 }
 
-h4 {
+
+li {
+  display: inline;
   font-size: 50px;
   font-weight: normal;
   color: #343640;
   text-align: right;
-  margin-right: 600px;
   font-family: 'Raleway', sans-serif;
 }
