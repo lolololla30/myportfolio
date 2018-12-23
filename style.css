@@ -70,7 +70,7 @@ section {
 @media (min-width: 992px) {
   #face {
     position: relative;
-    top: -550px;
+    top: -480px;
     left: 111px;
     width: 290px;
     z-index: -1;
