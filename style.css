@@ -1,5 +1,11 @@
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 body {
-  background-color: #FDE4D8;
+  background-color: #A6797F;
 }
 
 .hometext {
@@ -7,12 +13,22 @@ body {
   /*border: 1px solid red;*/
 }
 
+li a {
+  font-weight: bold;
+  color: inherit;
+}
+
+#navbarNav li a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
 h1 {
-  color: #343640;
+  color: #4E2C30;
   text-align: right;
   font-size: 70px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 200;
+  font-weight: bolder;
 }
 
 .subtitle {
@@ -21,22 +37,23 @@ h1 {
 }
 
 h2 {
-  color: #343640;
+  color: #DECDCF;
   text-align: right;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
   font-family: 'Raleway', sans-serif;
 }
 
 .headhighlight {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .mynavbar {
   padding-top: 50px;
   padding-right: 90px;
-  background-color: #FDE4D8;
+  background-color: #A6797F;
+  font-family: 'Raleway', sans-serif;
 }
 
 section {
@@ -46,7 +63,7 @@ section {
 .header {
   font-size: 16px;
   font-weight: normal;
-  color: #343640;
+  color: #3F3F3F;
   text-align: right;
   font-family: 'Raleway', sans-serif;
   margin-left: 600px;
@@ -108,17 +125,17 @@ section {
 
 #lemon {
     position: relative;
-    width: 600px;
+    width: 700px;
     top:-130px;
-    left: 40px;
     z-index: -1;
+
   }
 
 #cupcake {
   position: relative;
-  width: 800px;
+  width: 700px;
   top:-180px;
-  margin-left: -50px;
+  margin-left: -10px;
   z-index: -1;
 }
 
@@ -156,15 +173,15 @@ section {
 }
 
 .btn {
-  border-color: #F9C6B3;
+  border-color: #4E2C30;
   border-width: 2px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color: #343640;
+  color: #4E2C30;
 
 }
 .btn:hover {
-  background-color: #F9C6B3;
+  background-color: #4E2C30;
   color: #ffffff;
 }
 
@@ -174,6 +191,7 @@ section {
   margin-top: 10px;
   margin-left: 700px;
   justify-content: space-between;
+  font-weight: bolder;
 
 
 }
@@ -182,8 +200,7 @@ section {
   margin-left: 810px;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  color: #000000;
+  font-weight: bolder;
 }
 
 .link2 {
@@ -191,14 +208,25 @@ section {
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  color: #000000;
 }
 
-img {
-  position: relative;
-  margin-left: -300px;
-  margin-top: -300px;
-  max-width: 750px;
-  max-height: 550px;
-  opacity: 0.6;
+.link3 {
+  margin-left: 810px;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+
+ a {
+    color: #4E2C30;
+    font-weight: bold;
+}
+
+a:hover
+{
+     color: #ffffff;
+     text-decoration:none;
+     cursor:pointer;
+     font-weight: bolder;
 }
