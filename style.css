@@ -28,7 +28,7 @@ h1 {
   text-align: right;
   font-size: 70px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .subtitle {
@@ -73,6 +73,8 @@ section {
   flex-direction: row;
   justify-content: space-around;
 }
+
+
 
 @media (max-width: 991.98px) {
   #face {
@@ -176,8 +178,8 @@ section {
   border-color: #4E2C30;
   border-width: 2px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
   color: #4E2C30;
+  font-weight: 400;
 
 }
 .btn:hover {
@@ -191,36 +193,34 @@ section {
   margin-top: 10px;
   margin-left: 700px;
   justify-content: space-between;
-  font-weight: bolder;
-
-
+  font-weight: 400;
 }
 
 .link1 {
   margin-left: 810px;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .link2 {
   margin-left: 810px;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .link3 {
   margin-left: 810px;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 
  a {
     color: #4E2C30;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 a:hover
@@ -228,5 +228,5 @@ a:hover
      color: #ffffff;
      text-decoration:none;
      cursor:pointer;
-     font-weight: bolder;
+     font-weight: 500;
 }
